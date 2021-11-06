@@ -1,0 +1,57 @@
+{
+    "name": "Ultroid UserBot Via UltroidCli",
+    "description": "The most advanced telegram userbot now has it's own Cli.",
+    "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
+    "keywords": [
+        "userbot",
+        "ultroid",
+        "cli"
+    ],
+    "repository": "https://github.com/BLUE-DEVIL1134/UltroidCliTemplate",
+    "website": "https://ultroid.tech",
+    "success_url": "https://github.com/BLUE-DEVIL1134/UltroidCli",
+    "stack": "container",
+    "env": {
+        "apiId": {
+            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "value": "", 
+            "required": true
+        },
+        "apiHash": {
+            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "value": "",
+            "required": true
+        },
+        "session": {
+            "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
+            "value": "",
+            "required": true
+        },
+        "redisUri": {
+            "description": "Redis endpoint URL, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        "redisPassword": {
+            "description": "Redis endpoint password, from redislabs.com",
+            "value": "",
+            "required": true
+        },
+        "herokuApi": {
+            "description": "Heroku API token. Mandatory for Heroku Deploy...",
+            "value": "",
+            "required": true
+        },
+        "herokuAppName": {
+            "description": "Name of your Heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "value": "",
+            "required": true
+        }
+    },
+    "formation": {
+        "ultroid": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
