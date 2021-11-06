@@ -27,6 +27,8 @@ RUN ./ultroid env.set API_HASH $apiHash
 RUN ./ultroid env.set SESSION $session
 RUN ./ultroid env.set REDIS_URI $redisUri
 RUN ./ultroid env.set REDIS_PASSWORD $redisPassword
+RUN ./ultroid env.set HEROKU_API $herokuApi
+RUN ./ultroid env.set HEROKU_APP_NAME $herokuAppName
 
 # Print the versions
 # Absolutely not required in heroku but, me is premoting UltroidCli
