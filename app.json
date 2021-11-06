@@ -13,17 +13,17 @@
     "stack": "container",
     "env": {
         "apiId": {
-            "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
+            "description": "You api id, from my.telegram.org",
             "value": "", 
             "required": true
         },
         "apiHash": {
-            "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
+            "description": "You api hash, from my.telegram.org",
             "value": "",
             "required": true
         },
         "session": {
-            "description": "Your session string. Can be added now, or after deploy. (The bot will NOT work without a session string!!)",
+            "description": "Use UltroidCli To Get your session string",
             "value": "",
             "required": true
         },
@@ -38,12 +38,12 @@
             "required": true
         },
         "herokuApi": {
-            "description": "Heroku API token. Mandatory for Heroku Deploy...",
+            "description": "Heroku API token",
             "value": "",
             "required": true
         },
         "herokuAppName": {
-            "description": "Name of your Heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "description": "Name of your Heroku app, given in the first blank on this page.",
             "value": "",
             "required": true
         }
