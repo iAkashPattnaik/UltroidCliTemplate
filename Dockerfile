@@ -22,13 +22,13 @@ RUN ./ultroid env.create new
 
 # Set the Variables in [.env] file
 # For heroku, first set the variables in setings/config-vars and then deploy
-RUN ./ultroid env.set API_ID $apiId
-RUN ./ultroid env.set API_HASH $apiHash
-RUN ./ultroid env.set SESSION $session
-RUN ./ultroid env.set REDIS_URI $redisUri
-RUN ./ultroid env.set REDIS_PASSWORD $redisPassword
-RUN ./ultroid env.set HEROKU_API $herokuApi
-RUN ./ultroid env.set HEROKU_APP_NAME $herokuAppName
+RUN ./ultroid env.API_ID $apiId
+RUN ./ultroid env.API_HASH $apiHash
+RUN ./ultroid env.SESSION $session
+RUN ./ultroid env.REDIS_URI $redisUri
+RUN ./ultroid env.REDIS_PASSWORD $redisPassword
+RUN ./ultroid env.HEROKU_API $herokuApi
+RUN ./ultroid env.HEROKU_APP_NAME $herokuAppName
 
 # Print the versions
 # Absolutely not required in heroku but, me is premoting UltroidCli
