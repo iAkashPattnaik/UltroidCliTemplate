@@ -11,6 +11,15 @@ FROM theteamultroid/ultroid:main
 ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+# ENV vars
+ARG API_ID
+ARG API_HASH
+ARG SESSION
+ARG REDIS_URI
+ARG REDIS_PASSWORD
+ARG HEROKU_API
+ARG HEROKU_APP_NAME
+
 # download the latest release from github
 RUN ver=$(curl https://raw.githubusercontent.com/BLUE-DEVIL1134/UltroidCli/main/version.txt) && curl -L -o ultroid https://github.com/BLUE-DEVIL1134/UltroidCli/releases/download/$ver/ultroid-linux
 
