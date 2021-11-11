@@ -1,11 +1,11 @@
 build:
+  config:
+    - API_ID=$apiId
+    - API_HASH=$apiHash
+    - SESSION=$session
+    - REDIS_URI=$redisUri
+    - REDIS_PASSWORD=$redisPassword
+    - HEROKU_API=$herokuApi
+    - HEROKU_APP_NAME=$herokuAppName
   docker:
       ultroid: Dockerfile
-      args:
-        - API_ID=$apiId
-        - API_HASH=$apiHash
-        - SESSION=$session
-        - REDIS_URI=$redisUri
-        - REDIS_PASSWORD=$redisPassword
-        - HEROKU_API=$herokuApi
-        - HEROKU_APP_NAME=$herokuAppName
