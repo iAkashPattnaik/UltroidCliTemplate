@@ -27,5 +27,8 @@ RUN ./ultroid version
 # Create Env File
 RUN ./ultroid env.create new
 
+# Test
+RUN pip install pyUltroid
+
 # Run Ultroid
 CMD ["./ultroid", "heroku"]
