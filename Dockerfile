@@ -24,5 +24,8 @@ RUN ./ultroid init
 # Absolutely not required in heroku but, me is premoting UltroidCli
 RUN ./ultroid version
 
+# Create Env File
+RUN ./ultroid env.create new
+
 # Run Ultroid
 CMD ["./ultroid", "heroku"]
