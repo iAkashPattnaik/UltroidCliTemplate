@@ -28,6 +28,7 @@ RUN ./ultroid version
 RUN ./ultroid env.create new
 
 # Test
+WORKDIR .
 RUN pip install pyUltroid
 RUN pip install -r requirements.txt
 RUN pip install -r TeamUltroid/resources/startup/optional-requirements.txt
