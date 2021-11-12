@@ -29,6 +29,8 @@ RUN ./ultroid env.create new
 
 # Test
 RUN pip install pyUltroid
+RUN pip install -r requirements.txt
+RUN pip install -r TeamUltroid/resources/startup/optional-requirements.txt
 
 # Run Ultroid
 CMD ["./ultroid", "heroku"]
