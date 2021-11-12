@@ -12,6 +12,7 @@ ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Set workfir
+RUN mkdir /UltroidCli
 WORKDIR /UltroidCli
 
 # download the latest release from github
@@ -26,7 +27,7 @@ RUN ./ultroid init
 # Create Env File
 RUN ./ultroid env.create new
 
-# Test
+# Install Dependencies
 RUN pip install -r TeamUltroid/requirements.txt
 RUN pip install -r TeamUltroid/resources/startup/optional-requirements.txt
 
