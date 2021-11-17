@@ -7,6 +7,9 @@
 # <img height="32px" src="https://www.herokucdn.com/favicon.ico" />Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/BLUE-DEVIL1134/UltroidCliTemplate&template=https://github.com/BLUE-DEVIL1134/UltroidCliTemplate)
 
+# <img src="https://railway.app/favicon-96x96.png" height="32px"/>Railway
+[![Deploy](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/BLUE-DEVIL1134/UltroidCliTemplate&envs=apiId,apiHash,session,redisUri,redisPassword&TZDefault=Asia/Kolkata)
+
 # Special Thanks
   - [`xditya`](https://github.com/xditya) - Thanks for kicking me from [TeamUltroid](https://github.com/TeamUltroid) so that i made [UltroidCli](https://github.com/BLUE-DEVIL1134/UltroidCli)
   - [`Devesh`](https://github.com/new-dev0) - Thanks for helping on various occasions
