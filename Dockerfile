@@ -28,6 +28,7 @@ RUN ./ultroid init
 RUN ./ultroid env.create new
 
 # Install Dependencies
+RUN pip install -U pip
 RUN pip install -r TeamUltroid/requirements.txt
 RUN pip install -r TeamUltroid/resources/startup/optional-requirements.txt
 
