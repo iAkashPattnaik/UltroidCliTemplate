@@ -24,9 +24,6 @@ RUN chmod u+x ultroid
 # Clone the repository and install the dependencies
 RUN ./ultroid init
 
-# Create Env File
-RUN ./ultroid env.create new
-
 # Install Dependencies
 RUN pip install -U pip
 RUN pip install -r TeamUltroid/requirements.txt
