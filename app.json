@@ -12,37 +12,37 @@
     "success_url": "https://github.com/BLUE-DEVIL1134/UltroidCli",
     "stack": "container",
     "env": {
-        "apiId": {
+        "API_ID": {
             "description": "You api id, from my.telegram.org",
             "value": "", 
             "required": true
         },
-        "apiHash": {
+        "API_HASH": {
             "description": "You api hash, from my.telegram.org",
             "value": "",
             "required": true
         },
-        "session": {
+        "SESSION": {
             "description": "Use UltroidCli To Get your session string",
             "value": "",
             "required": true
         },
-        "redisUri": {
+        "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
             "value": "",
             "required": true
         },
-        "redisPassword": {
+        "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
             "value": "",
             "required": true
         },
-        "herokuApi": {
+        "HEROKU_API": {
             "description": "Heroku API token",
             "value": "",
             "required": true
         },
-        "herokuAppName": {
+        "HEROKU_APP_NAME": {
             "description": "Name of your Heroku app, given in the first blank on this page.",
             "value": "",
             "required": true
