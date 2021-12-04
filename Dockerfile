@@ -25,9 +25,9 @@ RUN chmod u+x ultroid
 RUN ./ultroid init
 
 # Install Dependencies
-RUN pip install -U pip && \
-    pip install --no-cache-dir -r TeamUltroid/requirements.txt \
-    pip install install av --no-binary av
+RUN pip install -U pip \
+    && pip install --no-cache-dir -r TeamUltroid/requirements.txt \
+    && pip install install av --no-binary av
 
 # Run Ultroid
 CMD ["./ultroid", "heroku"]
