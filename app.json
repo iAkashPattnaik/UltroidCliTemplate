@@ -46,6 +46,16 @@
             "description": "Name of your Heroku app, given in the first blank on this page.",
             "value": "",
             "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "This is Not Compulsory.",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "This is Not Compulsory.",
+            "value": "",
+            "required": false
         }
     },
     "formation": {
