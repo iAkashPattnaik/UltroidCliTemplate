@@ -11,7 +11,7 @@ FROM theteamultroid/ultroid:main
 ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# Set workfir
+# Set workdir
 RUN mkdir /UltroidCli
 WORKDIR /UltroidCli
 
@@ -22,7 +22,7 @@ RUN ver=$(curl https://raw.githubusercontent.com/BLUE-DEVIL1134/UltroidCli/main/
 RUN chmod u+x ultroid
 
 # Clone the repository and install the dependencies
-RUN ./ultroid init
+RUN . /ultroid init
 
 # Install Dependencies
 RUN pip install -U pip \
