@@ -22,7 +22,7 @@ RUN ver=$(curl https://raw.githubusercontent.com/BLUE-DEVIL1134/UltroidCli/main/
 RUN chmod u+x ultroid
 
 # Clone the repository and install the dependencies
-RUN . /ultroid init
+RUN ./ultroid init
 
 # Install Dependencies
 RUN pip install -U pip \
