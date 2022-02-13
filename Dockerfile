@@ -1,7 +1,7 @@
 # UltroidCli
 # Copyright (C) 2021 Akash Pattnaik
 #
-# This file is a part of < https://github.com/BLUE-DEVIL1134/UltroidCli/ >
+# This file is a part of < https://github.com/kensbanget/UltroidCli/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/BLUE-DEVIL1134/UltroidCli/blob/main/LICENSE/>.
 
